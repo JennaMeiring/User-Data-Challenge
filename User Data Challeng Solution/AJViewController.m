@@ -7,6 +7,7 @@
 //
 
 #import "AJViewController.h"
+#import "AJUserData.h"
 
 @interface AJViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.users=[AJUserData users];
+    
+    for(int i=0;i<[self.users count];i++)
+    {
+        NSLog(@"Username: %@, Email: %@, Password: %@, Age: %@",self.users[i][USERNAME],self.users[i][EMAIL],self.users[i][PASSWORD],self.users[i][AGE]);
+    }
 }
 
 - (void)didReceiveMemoryWarning

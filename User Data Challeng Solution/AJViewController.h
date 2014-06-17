@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AJUserData.h"
 
 @interface AJViewController : UIViewController
+
+@property (strong,nonatomic)NSArray *users;
 
 @end

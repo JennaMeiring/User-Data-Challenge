@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0494DAF19504EED00CE7116 /* person1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0494DAB19504EED00CE7116 /* person1.jpeg */; };
+		D0494DB019504EED00CE7116 /* person2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0494DAC19504EED00CE7116 /* person2.jpeg */; };
+		D0494DB119504EED00CE7116 /* person3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0494DAD19504EED00CE7116 /* person3.jpg */; };
+		D0494DB219504EED00CE7116 /* person4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D0494DAE19504EED00CE7116 /* person4.jpeg */; };
+		D0494DB519504EF900CE7116 /* CCUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = D0494DB419504EF900CE7116 /* CCUserData.m */; };
 		D08FEAE019504B7B001C03FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08FEADF19504B7B001C03FE /* Foundation.framework */; };
 		D08FEAE219504B7C001C03FE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08FEAE119504B7C001C03FE /* CoreGraphics.framework */; };
 		D08FEAE419504B7C001C03FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08FEAE319504B7C001C03FE /* UIKit.framework */; };
@@ -21,6 +26,9 @@
 		D08FEB0119504B7C001C03FE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D08FEAE319504B7C001C03FE /* UIKit.framework */; };
 		D08FEB0919504B7C001C03FE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D08FEB0719504B7C001C03FE /* InfoPlist.strings */; };
 		D08FEB0B19504B7C001C03FE /* User_Data_Challeng_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FEB0A19504B7C001C03FE /* User_Data_Challeng_SolutionTests.m */; };
+		D08FEB1619504BBB001C03FE /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FEB1519504BBB001C03FE /* AstronomicalData.m */; };
+		D08FEB1919504BD3001C03FE /* AJUserData.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FEB1819504BD3001C03FE /* AJUserData.m */; };
+		D08FEB1C19504C40001C03FE /* AJUserDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = D08FEB1B19504C40001C03FE /* AJUserDictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0494DAB19504EED00CE7116 /* person1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person1.jpeg; sourceTree = "<group>"; };
+		D0494DAC19504EED00CE7116 /* person2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person2.jpeg; sourceTree = "<group>"; };
+		D0494DAD19504EED00CE7116 /* person3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person3.jpg; sourceTree = "<group>"; };
+		D0494DAE19504EED00CE7116 /* person4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person4.jpeg; sourceTree = "<group>"; };
+		D0494DB319504EF900CE7116 /* CCUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCUserData.h; sourceTree = "<group>"; };
+		D0494DB419504EF900CE7116 /* CCUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCUserData.m; sourceTree = "<group>"; };
 		D08FEADC19504B7B001C03FE /* User Data Challeng Solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User Data Challeng Solution.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D08FEADF19504B7B001C03FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D08FEAE119504B7C001C03FE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +67,12 @@
 		D08FEB0619504B7C001C03FE /* User Data Challeng SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "User Data Challeng SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		D08FEB0819504B7C001C03FE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D08FEB0A19504B7C001C03FE /* User_Data_Challeng_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Data_Challeng_SolutionTests.m; sourceTree = "<group>"; };
+		D08FEB1419504BBB001C03FE /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		D08FEB1519504BBB001C03FE /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
+		D08FEB1719504BD3001C03FE /* AJUserData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJUserData.h; sourceTree = "<group>"; };
+		D08FEB1819504BD3001C03FE /* AJUserData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJUserData.m; sourceTree = "<group>"; };
+		D08FEB1A19504C40001C03FE /* AJUserDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AJUserDictionary.h; sourceTree = "<group>"; };
+		D08FEB1B19504C40001C03FE /* AJUserDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AJUserDictionary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +137,8 @@
 				D08FEAF119504B7C001C03FE /* Main.storyboard */,
 				D08FEAF419504B7C001C03FE /* AJViewController.h */,
 				D08FEAF519504B7C001C03FE /* AJViewController.m */,
+				D08FEB1719504BD3001C03FE /* AJUserData.h */,
+				D08FEB1819504BD3001C03FE /* AJUserData.m */,
 				D08FEAF719504B7C001C03FE /* Images.xcassets */,
 				D08FEAE619504B7C001C03FE /* Supporting Files */,
 			);
@@ -126,10 +148,20 @@
 		D08FEAE619504B7C001C03FE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0494DB319504EF900CE7116 /* CCUserData.h */,
+				D0494DB419504EF900CE7116 /* CCUserData.m */,
+				D0494DAB19504EED00CE7116 /* person1.jpeg */,
+				D0494DAC19504EED00CE7116 /* person2.jpeg */,
+				D0494DAD19504EED00CE7116 /* person3.jpg */,
+				D0494DAE19504EED00CE7116 /* person4.jpeg */,
+				D08FEB1419504BBB001C03FE /* AstronomicalData.h */,
+				D08FEB1519504BBB001C03FE /* AstronomicalData.m */,
 				D08FEAE719504B7C001C03FE /* User Data Challeng Solution-Info.plist */,
 				D08FEAE819504B7C001C03FE /* InfoPlist.strings */,
 				D08FEAEB19504B7C001C03FE /* main.m */,
 				D08FEAED19504B7C001C03FE /* User Data Challeng Solution-Prefix.pch */,
+				D08FEB1A19504C40001C03FE /* AJUserDictionary.h */,
+				D08FEB1B19504C40001C03FE /* AJUserDictionary.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -229,9 +261,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0494DB119504EED00CE7116 /* person3.jpg in Resources */,
+				D0494DAF19504EED00CE7116 /* person1.jpeg in Resources */,
 				D08FEAF819504B7C001C03FE /* Images.xcassets in Resources */,
 				D08FEAEA19504B7C001C03FE /* InfoPlist.strings in Resources */,
+				D0494DB219504EED00CE7116 /* person4.jpeg in Resources */,
 				D08FEAF319504B7C001C03FE /* Main.storyboard in Resources */,
+				D0494DB019504EED00CE7116 /* person2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0494DB519504EF900CE7116 /* CCUserData.m in Sources */,
 				D08FEAEC19504B7C001C03FE /* main.m in Sources */,
+				D08FEB1C19504C40001C03FE /* AJUserDictionary.m in Sources */,
 				D08FEAF619504B7C001C03FE /* AJViewController.m in Sources */,
 				D08FEAF019504B7C001C03FE /* AJAppDelegate.m in Sources */,
+				D08FEB1619504BBB001C03FE /* AstronomicalData.m in Sources */,
+				D08FEB1919504BD3001C03FE /* AJUserData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +497,7 @@
 				D08FEB1019504B7C001C03FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D08FEB1119504B7C001C03FE /* Build configuration list for PBXNativeTarget "User Data Challeng SolutionTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +506,7 @@
 				D08FEB1319504B7C001C03FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
